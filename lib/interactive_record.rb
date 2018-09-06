@@ -4,8 +4,10 @@ require 'pry'
 
 class InteractiveRecord
 
-  def initialize
-    
+  def initialize(attributes)
+    attributes.each do |key, value|
+    binding.pry
+
   end
 
   def self.table_name
