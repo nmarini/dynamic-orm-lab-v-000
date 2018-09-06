@@ -13,7 +13,7 @@ class InteractiveRecord
 
     sql = "PRAGMA table_info('#{self.table_name}')"
 
-     sql.map do |info|
+     sql.each do |info|
      binding.pry
      end
 
