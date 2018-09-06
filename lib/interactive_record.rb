@@ -4,7 +4,7 @@ require 'pry'
 
 class InteractiveRecord
 
-  def initialize(attr_hash)
+  def initialize(attributes)
     @id = id
     @name = name
     @grade = grade
