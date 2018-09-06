@@ -27,7 +27,7 @@ class InteractiveRecord
     column_names.compact
   end
 
-  def table_name_for_instance 
+  def table_name_for_instance
     self.class.table_name
-  end 
+  end
 end
