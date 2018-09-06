@@ -5,10 +5,10 @@ require 'pry'
 class InteractiveRecord
 
   def initialize(attr_hash)
-    @id = id 
+    @id = id
     @name = name
     @grade = grade
-  end 
+  end
 
   def self.table_name
     self.to_s.downcase.pluralize
