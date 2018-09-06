@@ -7,7 +7,7 @@ class InteractiveRecord
   def initialize(attributes)
     attributes.each do |key, value|
     binding.pry
-
+  end
   end
 
   def self.table_name
