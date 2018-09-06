@@ -16,7 +16,7 @@ class InteractiveRecord
     column_names = []
 
     table_info.each do |info|
-     binding.pry
+      column_names << info["name"]
     end
 
   end
