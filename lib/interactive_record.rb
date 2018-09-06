@@ -13,9 +13,9 @@ class InteractiveRecord
 
     sql = "PRAGMA table_info('#{self.table_name}')"
 
-     sql.each do |info|
-     binding.pry
-     end
+    #  sql.each do |info|
+    #  binding.pry
+    #  end
 
   end
 end
