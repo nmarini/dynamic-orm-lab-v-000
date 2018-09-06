@@ -5,10 +5,10 @@ require 'pry'
 class InteractiveRecord
 
   def initialize(attributes={})
-    binding.pry
     attributes.each do |key, value|
       self.send("#{key}=", value)
     end
+    binding.pry
   end
 
   def self.table_name
