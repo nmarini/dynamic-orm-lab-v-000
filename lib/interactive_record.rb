@@ -14,7 +14,7 @@ class InteractiveRecord
 
     sql.map do |info|
       binding.pry
-    end 
+    end
 
   end
 end
