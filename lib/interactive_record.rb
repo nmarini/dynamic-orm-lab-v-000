@@ -18,6 +18,6 @@ class InteractiveRecord
     table_info.each do |info|
       column_names << info["name"]
     end
-
+    column_names.compact
   end
 end
