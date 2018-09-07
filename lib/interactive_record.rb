@@ -57,6 +57,6 @@ class InteractiveRecord
     sql = "SELECT * FROM #{table_name} WHERE name = ?"
 
       results = DB[:conn].execute(sql, name)[0]
-      table_name.new(results[0], results[1], results[2])
+      self.new(results[0], results[1], results[2])
   end
 end
