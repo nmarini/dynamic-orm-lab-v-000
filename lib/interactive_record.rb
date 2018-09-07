@@ -57,6 +57,6 @@ class InteractiveRecord
     sql = "SELECT * FROM #{table_name} WHERE name = ?"
 
       results = DB[:conn].execute(sql, name)
-      
+      binding.pry
   end
 end
